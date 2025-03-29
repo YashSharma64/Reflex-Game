@@ -1,0 +1,127 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+  }
+  
+  .container {
+    text-align: center;
+    margin-bottom: 140px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color:brown;
+    
+  }
+  
+  p {
+    margin: 20px 10px;
+    font-size: 19px;
+    
+  
+  }
+  .cont span{
+    color: darkblue;
+    font-weight: 800;
+  }
+  
+  
+  .game-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    margin: 20px auto;
+  
+  }
+  
+  .button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .color-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  
+  .color-button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .color-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .black{
+    background-color: black;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .red:hover {
+    background-color: darkred;
+  }
+  
+  .blue:hover {
+    background-color: darkblue;
+  }
+  
+  .green:hover {
+    background-color: darkgreen;
+  }
+  
+  .yellow:hover {
+    background-color: goldenrod;
+  }
+  .black:hover {
+    background-color:navy;
+  }
